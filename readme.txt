@@ -30,4 +30,4 @@ Pasos para crear un proyecto de React desde 0
 17. Agregamos la configuración de Husky en el package.json
 
 Tips:
-Para el manejo de invocaciones: npm install axios
+Para el manejo de invocaciones a APIs (similiar a fetch): npm install axios
