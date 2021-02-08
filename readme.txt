@@ -37,3 +37,4 @@ Para aplicar Continuous Integration con Firebase:
     * npm install -g firebase-tools
         firebase login
         firebase init
+    * firebase login:ci   (Ejecutar en npm)
