@@ -31,3 +31,9 @@ Pasos para crear un proyecto de React desde 0
 
 Tips:
 Para el manejo de invocaciones a APIs (similiar a fetch): npm install axios
+
+Para aplicar Continuous Integration con Firebase:
+    * Crear el proeycto en Firebase
+    * npm install -g firebase-tools
+        firebase login
+        firebase init
