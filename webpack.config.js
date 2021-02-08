@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/', //Para habilitar la navegación entre distintas rutas
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -51,6 +52,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
+    historyApiFallback: true, //Para que funcione con el componente de navegación de React Router
     port: 3005,
   },
 };

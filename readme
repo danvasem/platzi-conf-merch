@@ -28,3 +28,6 @@ Pasos para crear un proyecto de React desde 0
 16. Instalamos los paquetes para utilizar Husky, que permite agregar Hooks a Git para que cuano hacemos commit se ejecuten las pruebas.
     npm install husky --save-dev
 17. Agregamos la configuración de Husky en el package.json
+
+Tips:
+Para el manejo de invocaciones: npm install axios
