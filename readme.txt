@@ -38,3 +38,6 @@ Para aplicar Continuous Integration con Firebase:
         firebase login
         firebase init
     * firebase login:ci   (Ejecutar en npm)
+
+* Para optimizar el SEO del sitio web:
+    * npm install react-helmet 
