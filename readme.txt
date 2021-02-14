@@ -28,6 +28,8 @@ Pasos para crear un proyecto de React desde 0
 16. Instalamos los paquetes para utilizar Husky, que permite agregar Hooks a Git para que cuano hacemos commit se ejecuten las pruebas.
     npm install husky --save-dev
 17. Agregamos la configuración de Husky en el package.json
+18. Agregamos el paquete de copy de webpack para poder realizar copias de archivos
+    npm install copy-webpack-plugin --save-dev
 
 Tips:
 Para el manejo de invocaciones a APIs (similiar a fetch): npm install axios
@@ -41,3 +43,12 @@ Para aplicar Continuous Integration con Firebase:
 
 * Para optimizar el SEO del sitio web:
     * npm install react-helmet 
+
+* Para analizar el performance del sitio web -> Utilizar la opción 'Lighthouse' de Chrome Developer
+
+* Para convertir nuestro sitio en una PWA es necesario crear el archivo service-worker.js y las demás configuraciones. Revisar el link: https://platzi.com/clases/2118-react-hooks/33516-convierte-tu-aplicacion-de-react-en-pwa/
+
+* Para crear una API de manera visual: Utilizar Strapi
+    Crear el proeycto de Strapi: npx create-strapi-app platziconf-backend --quickstart
+    En el nuevo proyecto creado ejecutar: npm run develop
+
